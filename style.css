@@ -1,0 +1,106 @@
+/*common Start*/
+
+body{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#0f2656;
+	
+}
+/*common end*/
+
+/*header Start*/
+header{
+	border-bottom: 4px solid #f0f2f4; 
+	padding: 10px 0 8px;
+
+}
+.wrapper{
+	overflow: hidden;
+	width:90%;
+	/*border:1px solid;*/
+	margin:0 auto;
+
+}
+
+.logo{
+	float:left;
+	width: 11%;
+	/*border: 1px solid red;*/
+} 
+.logo img{
+	width: 100%;
+	
+}
+.menu{
+	float:right;
+	width: 40%;
+	/*border: 1px solid red;*/
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	float:left;
+	list-style: none;
+
+}
+.menu ul li a{
+	color: #0f2656;
+	text-decoration: none;
+	margin:20px 25px;
+	display:inline-block;
+	font-size:16px;
+	transition: .3s;
+}
+.menu ul li a:hover{
+	color: #008aff;
+}
+.menu ul li:last-child a{
+	margin-right:0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 50px 0;
+
+}
+.wrapper2{
+	width:40%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+
+}
+.b_content{
+	text-align: center;
+
+}
+.b_content h1{
+	margin:0;
+	font-size: 50px;
+
+}
+.skyblue{
+	color:#008aff;
+
+}
+.b_content p{
+	margin: 30px 0;
+
+}
+.b_img{
+	width: :55%;
+	/*border:1px solid red;*/
+	margin: 0 auto;
+
+}
+.b_img img{
+	width:100%;
+	
+}
+/*banner end*/
+
+
